@@ -12,10 +12,10 @@ console.log('Hello World')
 var sum = 0;
 
 for (i = 2; i < process.argv.length; i++) {
-	sum += Number(process.argv[i]);
+	sum += Number(process.argv[i])
 }
 
-console.log(sum);
+console.log(sum)
 ```
 
 ## My First I/O!
