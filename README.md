@@ -9,7 +9,6 @@ Please note that I also used the official node documentation (as a source for al
 console.log('Hello World')
 ```
 
-
 ## Baby Steps
 
 ```javascript
@@ -22,7 +21,6 @@ for (i = 2; i < process.argv.length; i++) {
 console.log(sum)
 ```
 
-
 ## My First I/O!
 
 ```javascript
@@ -34,7 +32,6 @@ console.log(str)
 ```
 
 Used source: https://stackoverflow.com/questions/2850203/count-the-number-of-lines-in-a-java-string
-
 
 ## My First ASYNC I/O!
 
@@ -49,7 +46,6 @@ fs.readFile(process.argv[2], 'utf8', function(err, fileContents) {
 	console.log(str)
 })
 ```
-
 
 ## Filtered LS
 
@@ -71,7 +67,6 @@ fs.readdir(process.argv[2], function(err, dirContents) {
 
 Used source: https://code-maven.com/list-content-of-directory-with-nodejs
 
-
 ## Make it Modular
 
 program.js
@@ -89,7 +84,6 @@ module(dir, ext, function(err, dirContents) {
 	})
 }) 
 ```
-
 
 module.js
 ```javascript
@@ -110,7 +104,6 @@ module.exports = function(dir, ext, callback) {
 
 }
 ```
-
 
 ## HTTP Client
 
