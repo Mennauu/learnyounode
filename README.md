@@ -30,6 +30,17 @@ console.log(str)
 
 ## My First ASYNC I/O!
 
+```javascript
+var fs = require('fs')
+var str = fs.readFile(process.argv[2], 'utf8', function(err, fileContents) {
+	if (err) {
+		console.log(err)
+	}
+	var result = fileContents.split('\n').length -1
+	console.log(result)
+})
+```
+
 ## Filtered LS
 
 ## Make it Modular
