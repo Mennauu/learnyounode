@@ -1,5 +1,8 @@
 # learnyounode
 
+Please note that I also used the official node documentation (as a source) which you can find here: [Node.js Documentation](https://nodejs.org/api/)
+
+
 ## Hello World
 
 ```javascript
@@ -27,6 +30,8 @@ var str = buf.toString().split('\n').length -1
 
 console.log(str)
 ```
+
+Used source: https://stackoverflow.com/questions/2850203/count-the-number-of-lines-in-a-java-string
 
 ## My First ASYNC I/O!
 
@@ -59,7 +64,7 @@ fs.readdir(process.argv[2], function(err, dirContents) {
 })
 ```
 
-Gebruikte bronnen: https://code-maven.com/list-content-of-directory-with-nodejs
+Used source: https://code-maven.com/list-content-of-directory-with-nodejs
 
 ## Make it Modular
 
