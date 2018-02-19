@@ -32,12 +32,13 @@ console.log(str)
 
 ```javascript
 var fs = require('fs')
-var str = fs.readFile(process.argv[2], 'utf8', function(err, fileContents) {
+
+fs.readFile(process.argv[2], 'utf8', function(err, fileContents) {
 	if (err) {
 		console.log(err)
 	}
-	var result = fileContents.split('\n').length -1
-	console.log(result)
+	var str = fileContents.split('\n').length -1
+	console.log(str)
 })
 ```
 
