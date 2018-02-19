@@ -1,6 +1,6 @@
 # learnyounode
 
-Please note that I also used the official node documentation (as a source) which you can find here: [Node.js Documentation](https://nodejs.org/api/)
+Please note that I also used the official node documentation (as a source for all steps) which you can find here: [Node.js Documentation](https://nodejs.org/api/)
 
 
 ## Hello World
