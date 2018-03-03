@@ -200,6 +200,20 @@ Used source: https://medium.com/@pereirawebdev/learnyounode-exercise-10-ec922de6
  
 ## HTTP File Server
 
+```javascript
+var http = require('http')
+var fs = require('fs')
+var port = process.argv[2]
+var file = process.argv[3]
+ 
+var server = http.createServer(function (req, res) {  
+    res.writeHead(200, { 'content-type': 'text/plan' })
+    fs.createReadStream(file).pipe(res)
+})
+
+server.listen(port)
+```
+
 ## HTTP Uppercaserer
 
 ## HTTP Json API Server
