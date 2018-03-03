@@ -2,6 +2,8 @@
 
 Please note that I also used the official node documentation (as a source for all steps) which you can find here: [Node.js Documentation](https://nodejs.org/api/)
 
+![image](https://github.com/Mennauu/learnyounode/blob/master/learnyounode.png?raw=true)
+
 
 ## Hello World
 
