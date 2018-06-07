@@ -1,5 +1,7 @@
 # learnyounode
 
+To learn more about node.js I followed this self-guided workshop about node.js which you can find here (on Github): https://github.com/workshopper/learnyounode
+
 Please note that I also used the official node documentation (as a source for all steps) which you can find here: [Node.js Documentation](https://nodejs.org/api/)
 
 ![image](https://github.com/Mennauu/learnyounode/blob/master/learnyounode.png?raw=true)
